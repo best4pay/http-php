@@ -1,4 +1,5 @@
 <?php
+//http方式需要配合 ws赚http服务 参考 https://github.com/best4pay/WsToHttp-golang
 header('Content-Type: application/json');
 $callback_arr = json_decode(file_get_contents('php://input'),true);
 
